@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include<math.h>
-#define N 10
+#define N 100
 int main()
 {
     int a[N],i,j;
@@ -14,7 +14,7 @@ int main()
         }
     }
     printf("the primers are:\n");
-    for(i=0; i<N; i++)
+    for(i=1; i<N; i++)
     {
         if(a[i]!=0)
             printf("%d ",a[i]);
