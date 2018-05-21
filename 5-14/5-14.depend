@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1526693479 source:c:\users\cug\desktop\the c programming language\tcpl\5-14\main.c
+	<stdio.h>
+	<math.h>
+

@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include<string.h>
+int main()
+{
+    char s1[80],s2[80];
+    int i=0;
+    printf("input a sentence:\n");
+    gets(s2);
+    for(;s2[i]!='\0';i++)
+        s1[i]=s2[i];
+    s1[i]='\0';
+    printf("%s",s1);
+    return 0;
+}
