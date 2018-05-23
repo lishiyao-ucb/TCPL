@@ -20,5 +20,4 @@ void space(char a[])
         a[2*i]=a[i];
         a[2*i-1]=' ';
     }
-
 }
